@@ -1,4 +1,4 @@
-package by.tretyak.application;
+package by.tretyak.application.service;
 
 
 import by.tretyak.application.models.User;
@@ -6,11 +6,11 @@ import by.tretyak.application.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserServices {
+public class UserService {
 
     public UserRepository userRepository;
 
-    public UserServices(UserRepository userRepository) {
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
