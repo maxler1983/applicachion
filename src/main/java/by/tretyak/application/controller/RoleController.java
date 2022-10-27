@@ -17,8 +17,5 @@ import java.util.Collections;
 @RequestMapping("/roles")
 public class RoleController {
 
-    @Autowired
-    private final RoleRepository roleRepository;
-
 
 }

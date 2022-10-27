@@ -11,7 +11,4 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RequestMapping("/purchases")
 public class PurchaseController {
-
-    @Autowired
-    private final PurchaseRepository purchaseRepository;
 }

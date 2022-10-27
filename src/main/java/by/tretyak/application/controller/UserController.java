@@ -18,8 +18,6 @@ import java.util.List;
 public class UserController {
 
 
-    @Autowired
-    private final UserRepository userRepository;
 
 
 }
